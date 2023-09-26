@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    font-size: 1em;
 }
 
 header{
@@ -12,14 +13,21 @@ header{
 .container{
     margin: 0 auto ;
     display: flex;
-    min-width: 20em;
-    height: 17em;
+    max-width: 100%;
     align-items: center;
     justify-content: center;
 }
 
 .flex{
     display: flex;
+}
+
+#logoDisc{
+    width: 100%;
+}
+
+#container-img-logo{
+    width: 10%;
 }
 
 .link{
@@ -43,6 +51,8 @@ header{
 #blockA{
     width: 50%;
     height:90%;
+    flex-direction: column;
+    align-items: center;
 }
 
 #blockA>h1,#blockA>div{
@@ -50,19 +60,26 @@ header{
     text-align: center;
 }
 
-#blockA>p,div{
-    margin-top: 20px;
+#blockA>p,#botton-container{
+    margin-top: 3.5%;
+}
+
+#blockA>p{
+    margin-top: 3.5%;
+    max-width: 100%;
+    font-size: 20px;
+    color: white;
 }
 
 
+
 .bottone{
-    border-radius: 5px;
+    border-radius: 20px;
     min-width: 8em;
     height: 2.2em;
     display: inline-block;
     text-align: center;
-    line-height: 2em;
-
+    padding: 10px 32px;
 }
 
 #ButtonA{
@@ -81,56 +98,111 @@ header{
 
 .block-w{
     min-width: 70%;
+    max-width: 70%;
+    height: 100%;
+    min-height: 60%;
+    justify-content: center;
 }
 
+div>p{
+margin-top: 0;
+max-width: 18em;
+}
+
+div>h2{
+margin-top: 20px; 
+margin-bottom: 40px;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+}
 
 #containerC{
     background-color: white;
 }
 
 #blockB{
-    height:70%;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .miniblockA{
-width: 40%;
-height: 100%;
-background-color: pink;
+    max-width: 70%;
+    max-height: 90%;
+    flex-wrap: wrap;
 }
 
 .miniblockB{
-    width: 60%;
-    height: 100%;
-    background-color: blue; 
+    max-width: 30%;
+    max-height: 90%;
+    flex-wrap:wrap;
+}
+
+.miniblockB>p{
+    margin-top: 1em;
+    font-size: 1em;
+}
+
+.block-w img{
+    max-width: 100%;
+    max-height: 100%;
 }
 
 #containerD{
     background-color: lightgrey;
 }
 
-#blockC{
-    height:70%;
-    background-color: white;
+#paragrafoC{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-#containerE{
-    background-color: white;
+#flex-containerE{
+    flex-direction: column;
+    justify-content: center;
+
 }
 
-#blockD{
-    height:70%;
+#blockE>h2{
+    margin: 20px auto;
+    font-size: 1.2em;
+}
+
+#blockE>p{
+    margin: 20px auto;
+    font-size: 1.4em;
+    max-width: 800px;
 }
 
 #containerF{
     background-color: lightgrey;
-    height: 35em;
+    height:48em;
 }
 
 #blockE{
-    height:90%;
-    background-color: green;
+    height:100%;
+    flex-direction: column;
+    justify-content: center;
 }
 
+#Big-img{
+    width: 650px;
+    max-height: 650px;
+}
+
+
+#background-paragrafo{
+    background-image: url(../img\ 4/stars.svg);
+    background-size:contain ;
+    text-align: center;
+    font-size: 1.8em;
+    max-width: 30%;
+    margin: auto;
+}
 
 #containerG{
     background-color:black;
@@ -174,7 +246,6 @@ background-color: pink;
 }
 
 .bottone>button{
-
     background-color: white;
     border-radius: 10px;
     height: 2.2em;
@@ -189,4 +260,12 @@ background-color: pink;
     border:1px solid black;
 }
 
-
+#download{
+background-color:#5865f2;
+text-align:center;
+margin:30px auto;
+width: 15%;
+height: 30px;
+color: white;
+border-radius: 20px;
+}
