@@ -204,27 +204,46 @@ img{
     margin: auto;
 }
 
+#download{
+    justify-content: flex-start;
+    background-color:#5865f2;
+    margin:40px auto;
+    width:22%;
+    height: 38px;
+    color: white;
+    border-radius: 20px;
+    font-size: 1em;
+    padding-top: 10px;
+    }
+    
+    #download>img{
+    width: 15px;
+    margin:auto 15px;
+    padding: 0;
+    }
+
 #containerG{
-    background-color:black;
+    background-color:rgb(60, 60, 60);
     height: 35em;
 }
 
 #blockF{
-    height:90%;
+    height:60%;
+
 }
 
 .miniblock{
     width: 60%;
     height: 100%;
-    background-color: aquamarine;
     border-color: white;
-    border: 1px dashed white;
 }
 
 .miniblockC{
     height: 100%;
     width: 30%;
-    background-color:palevioletred;
+    color: white;
+    font-size: 1.1em;
+    margin: 0 30px;
 }
 
 .miniblockD{
@@ -232,40 +251,68 @@ img{
     width: 70%;
 }
 
+.miniblockC>h2{
+    font-size:1.8em;
+    font-weight: 800;
+    color: #5865f2;
+
+}
+
+#logo{
+    height: 4em;
+    width: 5em;
+}
+
+#ita{
+    height: 10px;
+    width: 10px;
+}
+
+.logo-social{
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    background-color: white;
+}
+
+.miniblock>div,.miniblock>div{
+    font-size: 1.1em;
+    color: white;
+    margin: 9px;
+}
+
+.miniblock>h3{
+    color: #5865f2;
+    margin: 9px;
+}
+
+
+
 #containerH{
-    background-color:black;
+    background-color:rgb(60, 60, 60);
     height: 10em;
+    
 }
 
 #blockG{
     height:90%;
-    background-color: rgb(127, 255, 246);
     justify-content: space-between;
     align-items: center;
+    border-top: 5px solid white;
 
 }
 
 .bottone>button{
-    background-color: white;
+    background-color: #5865f2;
     border-radius: 10px;
+    border: 0.1px solid #5865f2;
     height: 2.2em;
-    width: 4em;
+    width: 5em;
     padding:2px;
+    color: white;
 }
 
-#logo{
-    height: 2em;
-    width: 3em;
-    background-color: lightgrey;
-    border:1px solid black;
-}
-
-#download{
-background-color:#5865f2;
-text-align:center;
-margin:30px auto;
-width: 15%;
-height: 30px;
-color: white;
-border-radius: 20px;
+#blockG img{
+    height: 90px;
+    width: 90px;
 }
