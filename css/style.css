@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header{
+    background-image:url(../img\ 4/jumbo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    margin: 0 auto ;
+    display: flex;
+    min-width: 20em;
+    height: 17em;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+}
+
+.link{
+    margin: 8px;
+    color: white;
+}
+
+
+#containerA{
+    height:4em;
+    justify-content: space-around;
+    align-items: center;   
+}
+
+#containerB{
+    height: 15em;
+    align-items: center;
+    justify-content: center;
+}
+
+#blockA{
+    width: 50%;
+    height:90%;
+}
+
+#blockA>h1,#blockA>div{
+    color:white;
+    text-align: center;
+}
+
+#blockA>p,div{
+    margin-top: 20px;
+}
+
+
+.bottone{
+    border-radius: 5px;
+    min-width: 8em;
+    height: 2.2em;
+    display: inline-block;
+    text-align: center;
+    line-height: 2em;
+
+}
+
+#ButtonA{
+    background-color:white;
+    color: black;
+    margin-right: 1em;
+
+}
+
+#ButtonB{
+    background-color:black;
+    color: white;
+
+}
+
+
+.block-w{
+    min-width: 70%;
+}
+
+
+#containerC{
+    background-color: white;
+}
+
+#blockB{
+    height:70%;
+}
+
+.miniblockA{
+width: 40%;
+height: 100%;
+background-color: pink;
+}
+
+.miniblockB{
+    width: 60%;
+    height: 100%;
+    background-color: blue; 
+}
+
+#containerD{
+    background-color: lightgrey;
+}
+
+#blockC{
+    height:70%;
+    background-color: white;
+}
+
+#containerE{
+    background-color: white;
+}
+
+#blockD{
+    height:70%;
+}
+
+#containerF{
+    background-color: lightgrey;
+    height: 35em;
+}
+
+#blockE{
+    height:90%;
+    background-color: green;
+}
+
+
+#containerG{
+    background-color:black;
+    height: 35em;
+}
+
+#blockF{
+    height:90%;
+}
+
+.miniblock{
+    width: 60%;
+    height: 100%;
+    background-color: aquamarine;
+    border-color: white;
+    border: 1px dashed white;
+}
+
+.miniblockC{
+    height: 100%;
+    width: 30%;
+    background-color:palevioletred;
+}
+
+.miniblockD{
+    height: 100%;
+    width: 70%;
+}
+
+#containerH{
+    background-color:black;
+    height: 10em;
+}
+
+#blockG{
+    height:90%;
+    background-color: rgb(127, 255, 246);
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.bottone>button{
+
+    background-color: white;
+    border-radius: 10px;
+    height: 2.2em;
+    width: 4em;
+    padding:2px;
+}
+
+#logo{
+    height: 2em;
+    width: 3em;
+    background-color: lightgrey;
+    border:1px solid black;
+}
+
+
